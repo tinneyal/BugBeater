@@ -1,0 +1,19 @@
+.startPage{
+	text-align: center;
+}
+.time, .playpause, .score{
+  display: inline-block;
+  width: 140px;
+  }
+.playpause{
+  display: inline-block;
+  width: 170px;
+  }
+.nav{
+	margin-left: 33%;
+}
+canvas {
+	clear: left;
+	margin-left: 30%;
+	margin-right: 30%;
+}

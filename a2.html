@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<title>Bug Game</title>
+    <script src="a2.js"></script>
+    <link rel="stylesheet" href="a2.css">
+  </head>
+  <body>
+  	<div id = "startPage" class="startPage">
+  		<h1>Tap Tap Bug</h1>
+  		<h3>Let's kill some poor bugs who just want to eat</h3>
+  		<p id="hs">Highscore: 0</p>
+  		<div id="level">
+  			<input type="radio" name="level" id="level1" value="1">Level 1
+			<input type="radio" name="level" id="level2" value="2">Level 2
+		</div>
+  		<button id="playButton" onclick="init()">Start</button>
+  	</div>
+  	<div id = "game">
+	  	<div class = "nav">
+		  	<div class="time">
+		  		<p id="timer">60</p>
+		  	</div>
+		  	<div class="playpause">
+		    	<button id="playpause" onclick="startTime()">Play</button>
+		    </div>
+		    <div class="score">
+		  		<p id="score">0</p>
+		  	</div>
+	    </div>
+	    <canvas id="myCanvas" width="400" height="600"
+	       style="border:1px solid #c3c3c3;">
+	       Your browser does not support the canvas element.
+	    </canvas>
+   </div>
+  </body>
+</html>
